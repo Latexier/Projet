@@ -9,7 +9,7 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <link href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/product1.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Navigation-->
@@ -32,18 +32,18 @@
 
         <!-- Section produit (fiche livre) -->
         <section class="py-5">
-            <div class="container px-4 px-lg-5 my-5">
+            <div class="container px-4 px-lg-5 my-5 product-section">
                 <div class="row gx-4 gx-lg-5 align-items-center">
-                    <div class="col-md-6">
-                        <img class="card-img-top mb-5 mb-md-0 w-75" src="assets/hxh-tome1.jpg" alt="Tome 1 hunter x hunter" />
+                    <div class="col-md-6 text-center">
+                        <img class="mb-5 mb-md-0 w-75" src="assets/hxh-tome1.jpg" alt="Tome 1 hunter x hunter" />
                     </div>
                     <div class="col-md-6">
-                        <div class="small mb-1">ISBN: 978-2-123456-78-9</div>
+                        <div class="small mb-1 text-muted">ISBN: 978-2-123456-78-9</div>
                         <h1 class="display-5 fw-bolder">Tome 1 - Hunter X Hunter</h1>
                         <h4 class="text-muted mb-3">Auteur : Yoshihiro Togashi</h4>
                         <div class="fs-5 mb-5">
-                            <span class="text-decoration-line-through">25,00 €</span>
-                            <span>20,00 €</span>
+                            <span class="text-decoration-line-through text-muted">25,00 €</span>
+                            <span class="fw-bold text-success">20,00 €</span>
                         </div>
                         <p class="lead">
                             Un manga captivant qui suit les aventures de Gon Freecss, 
@@ -53,8 +53,8 @@
                             incontournable pour les amateurs de shonen.
                         </p>
                         <div class="d-flex">
-                            <input class="form-control text-center me-3" id="inputQuantity" type="number" value="1" min="1" style="max-width: 3rem" />
-                            <button class="btn btn-outline-dark flex-shrink-0" type="button">
+                            <input class="form-control text-center me-3" id="inputQuantity" type="number" value="1" min="1" style="max-width: 4rem" />
+                            <button class="btn btn-custom flex-shrink-0" type="button">
                                 <i class="bi-cart-fill me-1"></i>
                                 Ajouter au panier
                             </button>
@@ -67,7 +67,7 @@
         <!-- Section livres similaires -->
         <section class="py-5 bg-light">
             <div class="container px-4 px-lg-5 mt-5">
-                <h2 class="fw-bolder mb-4">Livres similaires</h2>
+                <h2 class="fw-bolder mb-4 text-center">📖 Livres similaires</h2>
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
 
                     <!-- Livre 1 -->
@@ -76,12 +76,15 @@
                             <img class="card-img-top" src="assets/hxh-tome2.jpg" alt="Tome 2 - Hunter X Hunter" />
                             <div class="card-body p-4">
                                 <div class="text-center">
-                                    <h5 class="fw-bolder">Tome 2 - Hunter X Hunter</h5>
+                                    <h5 class="fw-bolder">Hunter X Hunter</h5>
+                                    <p>Tome 2</p>
                                     18,00 €
                                 </div>
                             </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Voir le livre</a></div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+                                <div class="text-center">
+                                    <a class="btn btn-custom mt-auto" href="#">Voir le livre</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -98,8 +101,10 @@
                                     <span class="text-muted text-decoration-line-through">22,00 €</span> 19,00 €
                                 </div>
                             </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Ajouter au panier</a></div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+                                <div class="text-center">
+                                    <a class="btn btn-custom mt-auto" href="#">Voir le livre</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -115,8 +120,10 @@
                                     15,00 €
                                 </div>
                             </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Ajouter au panier</a></div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+                                <div class="text-center">
+                                    <a class="btn btn-custom mt-auto" href="#">Voir le livre</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -132,8 +139,10 @@
                                     24,00 €
                                 </div>
                             </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Ajouter au panier</a></div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+                                <div class="text-center">
+                                    <a class="btn btn-custom mt-auto" href="#">Voir le livre</a>
+                                </div>
                             </div>
                         </div>
                     </div>
